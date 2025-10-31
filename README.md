@@ -1,40 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# ALX Listing App
 
-## Getting Started
+The **ALX Listing App** is a foundational project designed to scaffold and set up the structure for building a modern Airbnb-style property listing application. This milestone focuses on creating a clean, scalable, and maintainable codebase using industry-standard tools and best practices.
 
-First, run the development server:
+## 🏗️ Purpose of the Project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This milestone lays the groundwork for the entire application. By completing it, we establish:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- A properly configured **Next.js** environment (using the **Pages Router**).
+- **TypeScript** for type safety.
+- **TailwindCSS** for styling and responsive UI design.
+- **Reusable components** to encourage clean and consistent UI patterns.
+- A strong **folder structure** for scalability and clarity.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## 🧰 Tech Stack
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+| Tool            | Purpose                                               |
+| --------------- | ----------------------------------------------------- |
+| **Next.js**     | React framework for server-side rendering and routing |
+| **TypeScript**  | Type safety and improved developer experience         |
+| **TailwindCSS** | Utility-first styling for fast UI development         |
+| **ESLint**      | Enforces clean, consistent code formatting            |
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## 📂 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+alx-listing-app/
+│
+├── pages/ # Page-based routing (Home page included)
+│ └── index.tsx
+│
+├── components/
+│ └── common/ # Reusable UI components
+│ ├── Card.tsx
+│ └── Button.tsx
+│
+├── interfaces/ # TypeScript interfaces and shared types
+│ └── index.ts
+│
+├── constants/ # Reusable constants and config values
+│ └── index.ts
+│
+├── public/
+│ └── assets/ # Images / icons used across the app
+│
+└── README.md # Project documentation
